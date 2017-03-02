@@ -137,7 +137,7 @@ class YT8MFrameFeatureReader(BaseReader):
                num_classes=4716,
                feature_sizes=[1024],
                feature_names=["inc3"],
-               max_frames=300):
+               max_frames=150):
     """Construct a YT8MFrameFeatureReader.
 
     Args:
